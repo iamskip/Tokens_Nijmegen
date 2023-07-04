@@ -1226,11 +1226,11 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{nijmegen.color.geel.600}",
+            "value": "{nijmegen.color.geel.200}",
             "type": "color"
           },
           "color": {
-            "value": "{nijmegen.color.geel.600}",
+            "value": "{nijmegen.color.oranje.700}",
             "type": "color"
           }
         }
