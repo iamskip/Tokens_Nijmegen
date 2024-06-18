@@ -1058,11 +1058,11 @@
             "type": "color"
           },
           "border-color": {
-            "value": "{nijmegen.feedback.negative.border-color}",
+            "value": "{nijmegen.feedback.error-default.border-color}",
             "type": "color"
           },
           "color": {
-            "value": "{nijmegen.feedback.negative.color}",
+            "value": "{nijmegen.feedback.error-default.color}",
             "type": "color"
           },
           "border-width": {
@@ -1096,59 +1096,57 @@
         }
       },
       "feedback": {
-        "informative": {
+        "info-default": {
+          "color": {
+            "value": "{nijmegen.color.donkerblauw.100}",
+            "type": "color"
+          }
+        },
+        "error-default": {
           "background-color": {
+            "value": "{nijmegen.color.donkerrood.400}",
+            "type": "color"
+          }
+        },
+        "warning-default": {
+          "color": {
+            "value": "{nijmegen.color.oranje.500}",
+            "type": "color"
+          }
+        },
+        "info-subdued": {
+          "color": {
             "value": "{nijmegen.color.blauw.100}",
             "type": "color"
-          },
-          "border-color": {
-            "value": "{nijmegen.color.donkerblauw.200}",
-            "type": "color"
-          },
-          "color": {
-            "value": "{nijmegen.color.donkerblauw.200}",
-            "type": "color"
           }
         },
-        "negative": {
+        "warning-subsued": {
           "background-color": {
-            "value": "{nijmegen.color.rood.100}",
-            "type": "color"
-          },
-          "border-color": {
-            "value": "{nijmegen.color.rood.600}",
-            "type": "color"
-          },
-          "color": {
-            "value": "{nijmegen.color.rood.600}",
+            "value": "{nijmegen.color.oranje.100}",
             "type": "color"
           }
         },
-        "positive": {
+        "success-subsued": {
           "background-color": {
             "value": "{nijmegen.color.groen.100}",
             "type": "color"
-          },
-          "border-color": {
-            "value": "{nijmegen.color.groen.600}",
-            "type": "color"
-          },
-          "color": {
-            "value": "{nijmegen.color.groen.600}",
+          }
+        },
+        "error-subsued": {
+          "background-color": {
+            "value": "{nijmegen.color.rood.100}",
             "type": "color"
           }
         },
-        "warning": {
+        "success-default": {
           "background-color": {
-            "value": "{nijmegen.color.geel.200}",
+            "value": "{nijmegen.color.lichtgroen.500}",
             "type": "color"
-          },
-          "border-color": {
-            "value": "{nijmegen.color.geel.300}",
-            "type": "color"
-          },
-          "color": {
-            "value": "{nijmegen.color.oranje.500}",
+          }
+        },
+        "success-sudsued": {
+          "background-color": {
+            "value": "{nijmegen.color.lichtgroen.100}",
             "type": "color"
           }
         }
@@ -1480,11 +1478,11 @@
         },
         "informative": {
           "background-color": {
-            "value": "{nijmegen.feedback.informative.background-color}",
+            "value": "{nijmegen.feedback.info-default.background-color}",
             "type": "color"
           },
           "border-color": {
-            "value": "{nijmegen.feedback.informative.border-color}",
+            "value": "{nijmegen.feedback.info-default.border-color}",
             "type": "color"
           },
           "color": {
@@ -1495,7 +1493,7 @@
         "icon": {
           "informative": {
             "color": {
-              "value": "{nijmegen.feedback.informative.color}",
+              "value": "{nijmegen.feedback.info-default.color}",
               "type": "color"
             }
           },
@@ -1517,13 +1515,13 @@
           },
           "positive": {
             "color": {
-              "value": "{nijmegen.feedback.positive.color}",
+              "value": "{nijmegen.feedback.success-default.color}",
               "type": "color"
             }
           },
           "negative": {
             "color": {
-              "value": "{nijmegen.feedback.negative.color}",
+              "value": "{nijmegen.feedback.error-default.color}",
               "type": "color"
             }
           },
@@ -1540,11 +1538,11 @@
         },
         "negative": {
           "background-color": {
-            "value": "{nijmegen.feedback.negative.background-color}",
+            "value": "{nijmegen.feedback.error-default.background-color}",
             "type": "color"
           },
           "border-color": {
-            "value": "{nijmegen.feedback.negative.border-color}",
+            "value": "{nijmegen.feedback.error-default.border-color}",
             "type": "color"
           },
           "color": {
@@ -1554,11 +1552,11 @@
         },
         "positive": {
           "background-color": {
-            "value": "{nijmegen.feedback.positive.background-color}",
+            "value": "{nijmegen.feedback.success-default.background-color}",
             "type": "color"
           },
           "border-color": {
-            "value": "{nijmegen.feedback.positive.border-color}",
+            "value": "{nijmegen.feedback.success-default}",
             "type": "color"
           },
           "color": {
@@ -1568,11 +1566,11 @@
         },
         "warning": {
           "background-color": {
-            "value": "{nijmegen.feedback.warning.background-color}",
+            "value": "{nijmegen.feedback.warning-default.background-color}",
             "type": "color"
           },
           "border-color": {
-            "value": "{nijmegen.feedback.warning.border-color}",
+            "value": "{nijmegen.feedback.warning-default.border-color}",
             "type": "color"
           },
           "color": {
@@ -1618,11 +1616,11 @@
         },
         "positive": {
           "color": {
-            "value": "{nijmegen.feedback.positive.color}",
+            "value": "{nijmegen.feedback.success-default.color}",
             "type": "color"
           },
           "background-color": {
-            "value": "{nijmegen.feedback.positive.background-color}",
+            "value": "{nijmegen.feedback.success-default.background-color}",
             "type": "color"
           },
           "border-color": {
@@ -1656,11 +1654,11 @@
         },
         "negative": {
           "color": {
-            "value": "{nijmegen.feedback.negative.color}",
+            "value": "{nijmegen.feedback.error-default.color}",
             "type": "color"
           },
           "background-color": {
-            "value": "{nijmegen.feedback.negative.background-color}",
+            "value": "{nijmegen.feedback.error-default.background-color}",
             "type": "color"
           },
           "border-color": {
@@ -1670,11 +1668,11 @@
         },
         "warning": {
           "color": {
-            "value": "{nijmegen.feedback.warning.color}",
+            "value": "{nijmegen.feedback.warning-default.color}",
             "type": "color"
           },
           "background-color": {
-            "value": "{nijmegen.feedback.warning.background-color}",
+            "value": "{nijmegen.feedback.warning-default.background-color}",
             "type": "color"
           },
           "border-color": {
@@ -1684,11 +1682,11 @@
         },
         "informative": {
           "color": {
-            "value": "{nijmegen.feedback.informative.color}",
+            "value": "{nijmegen.feedback.info-default.color}",
             "type": "color"
           },
           "background-color": {
-            "value": "{nijmegen.feedback.informative.background-color}",
+            "value": "{nijmegen.feedback.info-default.background-color}",
             "type": "color"
           },
           "border-color": {
@@ -2892,7 +2890,7 @@
       "form-field": {
         "invalid": {
           "border-inline-start-color": {
-            "value": "{nijmegen.feedback.negative.border-color}",
+            "value": "{nijmegen.feedback.error-default.border-color}",
             "type": "color"
           },
           "border-inline-start-width": {
@@ -2958,7 +2956,7 @@
         },
         "color": {
           "type": "color",
-          "value": "{nijmegen.feedback.negative.color}"
+          "value": "{nijmegen.feedback.error-default.color}"
         },
         "font-family": {
           "value": "{nijmegen.document.font-family}",
@@ -4307,7 +4305,7 @@
           },
           "color": {
             "type": "color",
-            "value": "{nijmegen.feedback.informative.color}"
+            "value": "{nijmegen.feedback.info-default.color}"
           }
         },
         "positive": {
@@ -4321,13 +4319,13 @@
           },
           "color": {
             "type": "color",
-            "value": "{nijmegen.feedback.positive.color}"
+            "value": "{nijmegen.feedback.success-default.color}"
           }
         },
         "negative": {
           "background-color": {
             "type": "color",
-            "value": "{nijmegen.feedback.negative.background-color}"
+            "value": "{nijmegen.feedback.error-default.background-color}"
           },
           "border-color": {
             "type": "color",
@@ -4335,13 +4333,13 @@
           },
           "color": {
             "type": "color",
-            "value": "{nijmegen.feedback.negative.color}"
+            "value": "{nijmegen.feedback.error-default.color}"
           }
         },
         "warning": {
           "background-color": {
             "type": "color",
-            "value": "{nijmegen.feedback.warning.background-color}"
+            "value": "{nijmegen.feedback.warning-default.background-color}"
           },
           "border-color": {
             "type": "color",
@@ -4349,7 +4347,7 @@
           },
           "color": {
             "type": "color",
-            "value": "{nijmegen.feedback.warning.color}"
+            "value": "{nijmegen.feedback.warning-default.color}"
           }
         },
         "background-color": {
