@@ -2237,6 +2237,92 @@
       }
     }
   },
+  "components/cards-news": {
+    "nijmegen": {
+      "card-nieuws": {
+        "background-color": {
+          "value": "{nijmegen.color-background-default}",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "{nijmegen.container.border-color}",
+          "type": "color"
+        },
+        "border-radius": {
+          "value": "{nijmegen.border-radius.sm}",
+          "type": "borderRadius"
+        },
+        "content": {
+          "padding": {
+            "block-end": {
+              "value": "{nijmegen.space.block.cat}",
+              "type": "spacing"
+            },
+            "block-start": {
+              "value": "{nijmegen.space.block.rabbit}",
+              "type": "spacing"
+            },
+            "inline": {
+              "value": "{nijmegen.space.inline.rabbit}",
+              "type": "spacing"
+            }
+          },
+          "row": {
+            "block-gap": {
+              "value": "{nijmegen.space.row.rat}",
+              "type": "spacing"
+            }
+          }
+        },
+        "datum": {
+          "color": {
+            "value": "{nijmegen.color.grijs.400}",
+            "type": "color"
+          }
+        },
+        "heading": {
+          "color": {
+            "value": "{nijmegen.heading.color}",
+            "type": "color"
+          },
+          "font-family": {
+            "value": "{nijmegen.heading.font-family}",
+            "type": "color"
+          },
+          "font-size": {
+            "value": "{utrecht.heading-3.font-size}",
+            "type": "fontSizes"
+          },
+          "font-weight": {
+            "value": "{nijmegen.heading.font-weight}",
+            "type": "fontWeights"
+          },
+          "hover": {
+            "color": {
+              "value": "{nijmegen.interaction.hover.color}",
+              "type": "color"
+            }
+          },
+          "line-height": {
+            "value": "{utrecht.heading-3.line-height}",
+            "type": "lineHeights"
+          }
+        },
+        "paragraph": {
+          "color": {
+            "value": "{utrecht.paragraph.color}",
+            "type": "color"
+          }
+        }
+      },
+      "card-news": {
+        "font-family": {
+          "value": "{nijmegen.typography.font-family.secondary}",
+          "type": "fontFamilies"
+        }
+      }
+    }
+  },
   "components/checkbox": {
     "utrecht": {
       "checkbox": {
@@ -4919,44 +5005,6 @@
       }
     }
   },
-  "components/demo-sticker": {
-    "voorbeeld": {
-      "demo-sticker": {
-        "background-color": {
-          "value": "{nijmegen.color.groen.400}",
-          "type": "color"
-        },
-        "color": {
-          "value": "{nijmegen.color.donkerrood.50}",
-          "type": "color"
-        },
-        "padding-inline": {
-          "value": "{nijmegen.space.inline.beetle}",
-          "type": "spacing"
-        },
-        "padding-block": {
-          "value": "{nijmegen.space.block.ant}",
-          "type": "spacing"
-        },
-        "border-radius": {
-          "value": "{nijmegen.border-radius.round}",
-          "type": "borderRadius"
-        },
-        "font-family": {
-          "value": "{nijmegen.document.font-family}",
-          "type": "fontFamilies"
-        },
-        "font-weight": {
-          "value": "{nijmegen.document.strong.font-weight}",
-          "type": "fontWeights"
-        },
-        "font-size": {
-          "value": "{nijmegen.document.font-size}",
-          "type": "fontSizes"
-        }
-      }
-    }
-  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -4969,6 +5017,7 @@
       "components/blockquote",
       "components/breadcrumb",
       "components/button",
+      "components/cards-news",
       "components/checkbox",
       "components/checkbox-group",
       "components/counter-badge",
@@ -4998,8 +5047,7 @@
       "components/textarea",
       "components/textbox",
       "components/toolbar-button",
-      "components/unordered-list",
-      "components/demo-sticker"
+      "components/unordered-list"
     ]
   }
 }
