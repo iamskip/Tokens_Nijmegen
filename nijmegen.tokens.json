@@ -4,39 +4,35 @@
       "typography": {
         "font-size": {
           "sm": {
-            "value": "14px",
-            "type": "fontSizes"
-          },
-          "md": {
             "value": "16px",
             "type": "fontSizes"
           },
-          "mg": {
-            "value": "18px",
-            "type": "fontSizes"
-          },
-          "lg": {
+          "md": {
             "value": "20px",
             "type": "fontSizes"
           },
-          "xl": {
+          "lg": {
             "value": "24px",
             "type": "fontSizes"
           },
-          "2xl": {
+          "xl": {
             "value": "32px",
             "type": "fontSizes"
           },
-          "3xl": {
-            "value": "42px",
+          "2xl": {
+            "value": "40px",
             "type": "fontSizes"
           },
-          "4xl": {
+          "3xl": {
             "value": "48px",
             "type": "fontSizes"
           },
-          "": {
+          "sml": {
             "value": "18",
+            "type": "fontSizes"
+          },
+          "xs": {
+            "value": "14px",
             "type": "fontSizes"
           }
         },
@@ -219,10 +215,6 @@
           }
         },
         "rood": {
-          "50": {
-            "value": "#FDD8E0",
-            "type": "color"
-          },
           "100": {
             "value": "#FBC0CD",
             "type": "color"
@@ -241,22 +233,6 @@
           },
           "500": {
             "value": "#A80A2D",
-            "type": "color"
-          },
-          "600": {
-            "value": "#860824",
-            "type": "color"
-          },
-          "700": {
-            "value": "#65061B",
-            "type": "color"
-          },
-          "800": {
-            "value": "#65061B",
-            "type": "color"
-          },
-          "900": {
-            "value": "#220209",
             "type": "color"
           }
         },
@@ -383,43 +359,19 @@
           }
         },
         "donkerrood": {
-          "50": {
-            "value": "#F9D8D9",
-            "type": "color"
-          },
           "100": {
-            "value": "#F3B0B3",
-            "type": "color"
-          },
-          "200": {
-            "value": "#F8829C",
-            "type": "color"
-          },
-          "300": {
-            "value": "#E66266",
-            "type": "color"
-          },
-          "400": {
-            "value": "#E03A40",
-            "type": "color"
-          },
-          "500": {
-            "value": "#CD2026",
-            "type": "color"
-          },
-          "600": {
             "value": "#A41A1E",
             "type": "color"
           },
-          "700": {
+          "200": {
             "value": "#7B1317",
             "type": "color"
           },
-          "800": {
+          "300": {
             "value": "#520D0F",
             "type": "color"
           },
-          "900": {
+          "400": {
             "value": "#290608",
             "type": "color"
           }
@@ -431,6 +383,28 @@
         "background-subdued": {
           "value": "{nijmegen.color.grijs.200}",
           "type": "color"
+        },
+        "donkergroen": {
+          "100": {
+            "value": "#116757",
+            "type": "color"
+          },
+          "200": {
+            "value": "#0E5345",
+            "type": "color"
+          },
+          "300": {
+            "value": "#0A3E34",
+            "type": "color"
+          },
+          "400": {
+            "value": "#072923",
+            "type": "color"
+          },
+          "500": {
+            "value": "#031511",
+            "type": "color"
+          }
         }
       },
       "space": {
@@ -819,6 +793,17 @@
             "type": "dropShadow"
           },
           "type": "boxShadow"
+        },
+        "xl": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "#000000",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
         }
       }
     }
@@ -1196,6 +1181,32 @@
           "value": "underline",
           "type": "textDecoration"
         }
+      },
+      "border-radius": {
+        "xs": {
+          "value": "4",
+          "type": "borderRadius"
+        },
+        "sm": {
+          "value": "12",
+          "type": "borderRadius"
+        },
+        "md": {
+          "value": "16",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "32",
+          "type": "borderRadius"
+        },
+        "xl": {
+          "value": "40",
+          "type": "borderRadius"
+        },
+        "2xl": {
+          "value": "64",
+          "type": "borderRadius"
+        }
       }
     },
     "nijmegen ": {
@@ -1207,6 +1218,75 @@
         "outline-style": {
           "value": "dotted",
           "type": "focus"
+        }
+      }
+    },
+    "Nijmegen": {
+      "breakpoints": {
+        "xs": {
+          "value": "0-399px",
+          "type": "dimension",
+          "description": "\t•\trange: Voor schermen kleiner dan 400px.\n\t•\tmargins: Buitenmarges ingesteld op 16px.\n\t•\tgutters: Binnenruimtes ingesteld op 16px."
+        },
+        "sm": {
+          "value": "400px - 699px",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "700px - 991px",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "992px - 1312px",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "> 1312px",
+          "type": "dimension"
+        }
+      },
+      "margins": {
+        "xs": {
+          "value": "16px",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "16px",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "32px",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "32px",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "48px",
+          "type": "dimension"
+        }
+      },
+      "guuters": {
+        "xs": {
+          "value": "16px",
+          "type": "dimension"
+        },
+        "sm": {
+          "value": "16px",
+          "type": "dimension"
+        },
+        "md": {
+          "value": "24px",
+          "type": "dimension"
+        },
+        "lg": {
+          "value": "32px",
+          "type": "dimension"
+        },
+        "xl": {
+          "value": "32px",
+          "type": "dimension"
         }
       }
     }
@@ -2733,7 +2813,7 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{nijmegen.typography.font-size.}",
+          "value": "{nijmegen.typography.font-size.sml}",
           "type": "fontSizes"
         },
         "line-height": {
